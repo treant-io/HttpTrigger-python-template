@@ -31,6 +31,8 @@ dist
 # Python Environments
 .env
 .venv
+.idea
+.vscode
 env/
 venv/
 ENV/
