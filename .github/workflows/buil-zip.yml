@@ -13,7 +13,7 @@ jobs:
 
       - name: Create zip
         run: zip -r ./http_${{ env.RELEASE_VERSION }}.zip ./*
-        
+   
       - uses: bacongobbler/azure-blob-storage-upload@v1.2.0
         name: Uploading to Azure storage...
         with:
