@@ -12,6 +12,7 @@ jobs:
         run: echo "RELEASE_VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       - name: Create zip
         run: zip -r ./http_${{ env.RELEASE_VERSION }}.zip ./*
    
@@ -23,6 +24,8 @@ jobs:
           connection_string: ${{ secrets.CONNECTIONSTRING }}
           container_name: test
 =======
+=======
+>>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -41,6 +44,9 @@ jobs:
           source_dir: './'
           connection_string: ${{ secrets.CONNECTIONSTRING }}
           container_name: 'bucket'
+<<<<<<< HEAD
+>>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
+=======
 >>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
           extra_args: '--pattern *.zip'
           sync: false

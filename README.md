@@ -1,1 +1,0 @@
-# HttpTrigger-python-template
