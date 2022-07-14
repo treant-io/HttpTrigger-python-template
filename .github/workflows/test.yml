@@ -23,7 +23,3 @@ jobs:
       - name: Create folder reports
         run: |
           mkdir reports
-
-      
-
-      
