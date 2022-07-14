@@ -12,4 +12,8 @@
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
     "version": "[2.*, 3.0.0)"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
