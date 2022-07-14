@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Do not include azure-functions-worker as it may conflict with the Azure Functions platform
-azure-functions
-=======
-=======
->>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
 # DO NOT include azure-functions-worker in this file
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
 azure-functions
-<<<<<<< HEAD
->>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
-=======
->>>>>>> c117cbe22f9588eee6419a685a2eeb7a8d4f8857
+
