@@ -23,9 +23,7 @@ jobs:
       - name: Create folder reports
         run: |
           mkdir reports
-      - name: Test with pytest
-        run: |
-          pytest
+
       
 
       
