@@ -21,6 +21,6 @@ jobs:
         with:
           source_dir: './'
           connection_string: ${{ secrets.CONNECTIONSTRING }}
-          container_name: test
+          container_name: bucket
           extra_args: '--pattern *.zip'
           sync: false
